@@ -11,6 +11,8 @@ namespace CSharpTutor
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Cities will only be loaded when page is first access. 
+            //The use of only is not post back so Items will not be added everytime an event happends.
             if (!IsPostBack)
             {
                 loadCities();
