@@ -19,15 +19,11 @@ namespace CSharpTutor
             if(MaleRadioButton.Checked)
             {
                 Response.Write("You are a " + MaleRadioButton.Text + "<br />");
-            }
-
-            if (FemaleRadioButton.Checked)
+            } else if (FemaleRadioButton.Checked)
             {
                 Response.Write("You are a " + FemaleRadioButton.Text + "<br />");
 
-            }
-
-            if (UnknownRadioButton.Checked)
+            } else if (UnknownRadioButton.Checked)
             {
                 Response.Write("You are " + UnknownRadioButton.Text + " gender" + "<br />");
 
