@@ -69,6 +69,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CheckBox.aspx" />
+    <Content Include="ConsilioApp.aspx" />
+    <Content Include="HyperLink_Control.aspx" />
+    <Content Include="Images\add authorized user.jpg" />
+    <Content Include="Images\images.jfif" />
+    <Content Include="Images\images.png" />
+    <Content Include="Images\LogoConsilio2.png" />
+    <Content Include="Images\Screen-10-24-2019_54947_PM.png" />
     <Content Include="IsPostBack.aspx" />
     <Content Include="RadioButtonControl.aspx" />
     <Content Include="TextBox.aspx" />
@@ -81,6 +88,20 @@
     </Compile>
     <Compile Include="CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsilioApp.aspx.cs">
+      <DependentUpon>ConsilioApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConsilioApp.aspx.designer.cs">
+      <DependentUpon>ConsilioApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HyperLink_Control.aspx.cs">
+      <DependentUpon>HyperLink_Control.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HyperLink_Control.aspx.designer.cs">
+      <DependentUpon>HyperLink_Control.aspx</DependentUpon>
     </Compile>
     <Compile Include="IsPostBack.aspx.cs">
       <DependentUpon>IsPostBack.aspx</DependentUpon>
@@ -106,6 +127,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\pasture.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -114,6 +136,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

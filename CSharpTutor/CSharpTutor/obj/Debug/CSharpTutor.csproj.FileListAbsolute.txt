@@ -105,6 +105,8 @@ C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\bin\roslyn\
 C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\obj\Debug\CSharpTutor.csproj.CoreCompileInputs.cache
+C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\obj\Debug\CSharpTutor.csproj.CopyComplete
 C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\obj\Debug\CSharpTutor.dll
 C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\obj\Debug\CSharpTutor.pdb
-C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\obj\Debug\CSharpTutor.csprojResolveAssemblyReference.cache
+C:\Users\jcorrea\source\repos\CSharpConcepts\CSharpTutor\CSharpTutor\obj\Debug\CSharpTutor.csprojAssemblyReference.cache
