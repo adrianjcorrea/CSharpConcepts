@@ -9,6 +9,7 @@ namespace CSharpTutor
 {
     public partial class IsPostBack : System.Web.UI.Page
     {
+        public string s;
         protected void Page_Load(object sender, EventArgs e)
         {
             
@@ -31,7 +32,12 @@ namespace CSharpTutor
 
         }
 
+        protected void Selection_Change(object sender, EventArgs e)
+        {
+            ddlCities.SelectedValue = ddlCities.SelectedItem.Value;
 
+            s = ddlCities.SelectedItem.Value;
 
+        }
     }
 }

@@ -25,7 +25,7 @@
                 </tr>
                 <tr>
                     <td>City: </td>
-                    <td><asp:DropDownList ID="ddlCities" runat="server"></asp:DropDownList> </td>
+                    <td><asp:DropDownList ID="ddlCities" runat="server" OnSelectedIndexChanged="Selection_Change"></asp:DropDownList> </td>
                 </tr>
                 <tr>
                     <td>&nbsp</td>

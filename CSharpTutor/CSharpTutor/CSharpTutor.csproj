@@ -68,10 +68,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Buttons.aspx" />
     <Content Include="CheckBox.aspx" />
-    <Content Include="ConsilioApp.aspx" />
     <Content Include="HyperLink_Control.aspx" />
     <Content Include="Images\add authorized user.jpg" />
+    <Content Include="Images\button.jpg" />
     <Content Include="Images\images.jfif" />
     <Content Include="Images\images.png" />
     <Content Include="Images\LogoConsilio2.png" />
@@ -80,21 +81,22 @@
     <Content Include="RadioButtonControl.aspx" />
     <Content Include="TextBox.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buttons.aspx.cs">
+      <DependentUpon>Buttons.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Buttons.aspx.designer.cs">
+      <DependentUpon>Buttons.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CheckBox.aspx.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="CheckBox.aspx.designer.cs">
       <DependentUpon>CheckBox.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ConsilioApp.aspx.cs">
-      <DependentUpon>ConsilioApp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ConsilioApp.aspx.designer.cs">
-      <DependentUpon>ConsilioApp.aspx</DependentUpon>
     </Compile>
     <Compile Include="HyperLink_Control.aspx.cs">
       <DependentUpon>HyperLink_Control.aspx</DependentUpon>
@@ -124,6 +126,13 @@
     </Compile>
     <Compile Include="TextBox.aspx.designer.cs">
       <DependentUpon>TextBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
